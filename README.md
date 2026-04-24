@@ -252,7 +252,9 @@
 - [Dippy](https://github.com/ldayton/Dippy) by [Lily Dayton](https://github.com/ldayton) - Auto-approve safe bash commands using AST-based parsing, while prompting for destructive operations. Solves permission fatigue without disabling safety. Supports Claude Code, Gemini CLI, and Cursor.
 - [parry](https://github.com/vaporif/parry) by [Dmytro Onypko](https://github.com/vaporif) - Prompt injection scanner for Claude Code hooks. Scans tool inputs and outputs for injection attacks, secrets, and data exfiltration attempts. [NOTE: Early development phase but worth a look.].
 - [TDD Guard](https://github.com/nizos/tdd-guard) by [Nizar Selander](https://github.com/nizos) - A hooks-driven system that monitors file operations in real-time and blocks changes that violate TDD principles.
-- [TypeScript Quality Hooks](https://github.com/bartolli/claude-code-typescript-hooks) by [bartolli](https://github.com/bartolli) - Quality check hook for Node.js TypeScript projects with TypeScript compilation. ESLint auto-fixing, and Prettier formatting. Uses SHA256 config caching for < 5ms validation performance during real-time editing.
+- [TypeScript Quality Hooks](https://github.com/bartolli/claude-code-typescript-hooks) by [bartolli](https://github.com/bartolli) - Quality check hook for Node.js TypeScript projects with TypeScript co
+- mpilation. ESLint auto-fixing, and Prettier formatting. Uses SHA256 config caching for < 5ms validation performance during real-time editing.
+- [claude-token-lens](https://github.com/Yaminie-Hsu/claude-token-lens) by[Yaminie-Hsu](https://github.com/Yaminie-Hsu) - Hooks-based token optimizer and session monitor for Claude Code. Automatically compresses prompts before submission (stack traces, code blocks,whitespace), filters verbose Bash output to failures only, and embeds a live status line showing context %, rate-limit countdown, and per-session USD cost. Also tracks API-equivalent cost across sessions with `token-lens stats month` to benchmark against the Pro plan. Available on PyPI: `pip install claude-token-lens`.
 
 <br>
 
